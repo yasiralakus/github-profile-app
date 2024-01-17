@@ -56,7 +56,7 @@ export default function App() {
                             <img src={data.avatar_url} alt="" />
 
                             {data.name ? <h2>{data.name}</h2> : <h2 style={{color: 'rgb(247, 113, 113)'}}>İsim eklenmedi.</h2>}
-                            <a href={data.html_url}>{data.login} <i class="fa-solid fa-link"></i></a>
+                            <a href={data.html_url}>{data.login} <i className="fa-solid fa-link"></i></a>
                             {data.bio ? <p>{data.bio}</p> : <p style={{color: 'rgb(247, 113, 113)'}}>Bio eklenmedi.</p>}
                             {data.location ? <p>{data.location}</p> : <p style={{color: 'rgb(247, 113, 113)'}}>Lokasyon eklenmedi.</p>}
 
